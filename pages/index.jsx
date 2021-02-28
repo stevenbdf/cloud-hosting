@@ -40,7 +40,7 @@ export default function Home() {
             <iframe width="800" height="400" src="https://www.youtube-nocookie.com/embed/xT75e-G1eak?start=3" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
         </div>
-        <div className="w-11/12 flex flex-col-reverse md:flex-row flex-wrap mb-20">
+        <div data-aos="fade-right" className="w-11/12 flex flex-col-reverse md:flex-row flex-wrap mb-20">
           <div className="w-full md:w-1/2 flex flex-wrap flex-col justify-center xl:px-20">
             <p className="w-full text-4xl font-bold mb-10 text-gray-800">¿Qué son los servicios en la nube?</p>
             <p className="mb-3">
@@ -57,7 +57,7 @@ export default function Home() {
             <img src="https://miro.medium.com/max/469/1*24oTbi-r9SXkkJjtV2_B2A.png" />
           </div>
         </div>
-        <div className="w-11/12 flex flex-col-reverse md:flex-row flex-wrap mb-20">
+        <div data-aos="fade-left" className="w-11/12 flex flex-col-reverse md:flex-row flex-wrap mb-20">
           <div className="w-full md:w-1/2 flex items-center justify-center xl:px-20">
             <img className="w-2/4" src="/images/cloud-png.png" />
           </div>
@@ -73,10 +73,10 @@ export default function Home() {
         </div>
         <div id="beneficios" className="bg-gradient-to-r from-green-400 to-blue-500 w-full text-white py-8 mb-20">
           <p className="text-4xl font-bold text-center ">Beneficios de contar con un servicio de base de datos en la nube</p>
-          <div className="w-full flex justify-center my-10">
+          <div data-aos="fade-up" className="w-full flex justify-center my-10">
             <img className="w-1/4" src="/images/benefits.png" />
           </div>
-          <div className="flex justify-center text-black">
+          <div data-aos="fade-up" className="flex justify-center text-black">
             <div className="w-2/3 bg-white rounded-md shadow-xl p-5">
               <p className="mb-5"><strong> Mejor agilidad e innovación.</strong> Las bases de datos en la nube se pueden configurar muy rápidamente y se desactivan con la misma rapidez. Esto acelera y simplifica las pruebas, las validaciones y las operacionalizaciones de las nuevas ideas empresariales. Si la organización decide no lanzar un proyecto, basta con abandonarlo (y su base de datos) y pasar a la siguiente innovación.</p>
               <p className="mb-5"><strong>Comercialización más rápida.</strong> Cuando se utiliza una base de datos en la nube, no es necesario solicitar hardware ni esperar a que se produzcan envíos, instalaciones o configuraciones de red cuando un nuevo producto está en la cola de desarrollo. El acceso a la base de datos puede estar disponible en cuestión de minutos.</p>
@@ -88,7 +88,7 @@ export default function Home() {
         <div id="caracteristicas" className="w-full mb-20 xl:px-20">
           <p className="text-4xl font-bold mb-10 text-center">Caracteristicas de las bases de datos como servicios en la nube</p>
           <div className="w-full flex justify-between">
-            <div className="w-1/3 flex px-10">
+            <div data-aos="fade-up" className="w-1/3 flex px-10">
               <div className="transform hover:scale-110 duration-300 bg-white w-full rounded-md border border-gray-300 shadow-2xl flex flex-col items-center justify-center p-5">
                 <div className="flex-grow w-1/2 flex items-center">
                   <img className="w-full mb-5" src="https://www.thepowermba.com/es/wp-content/uploads/2020/02/Captura-de-pantalla-2020-02-26-a-las-10.23.38.png" />
@@ -97,7 +97,7 @@ export default function Home() {
                 <p className="px-5">Cuando hablamos de escalabilidad nos referimos a la cantidad de almacenamiento que tendrás a disposición. Esta variable es casi infinita en las bases de datos en la nube. Pero también es adaptativa porque dependerá de tu consumo.  Es decir, a menos que no puedas pagar las cuotas del servicio, muy probablemente tu base de datos no colapsará por falta de capacidad de almacenaje.</p>
               </div>
             </div>
-            <div className="w-1/3 flex px-10">
+            <div data-aos="fade-up" data-aos-delay="300" className="w-1/3 flex px-10">
               <div className="transform hover:scale-110 duration-300 bg-white w-full rounded-md border border-gray-300 shadow-2xl flex flex-col items-center justify-center p-5">
                 <div className="flex-grow w-1/2 flex items-center">
                   <img className="w-full mb-5" src="https://www.pngitem.com/pimgs/m/485-4856410_nube-de-sincronizacin-icon-sincronizacin-png-transparent-png.png" />
@@ -106,7 +106,7 @@ export default function Home() {
                 <p className="px-5">En las bases de datos en la nube, desde que colocas una letra en la casilla de nombre hasta que finalizas el relleno del formulario, tus datos serán sincronizados y la vez duplicados. No solo se guardarán en un servidor virtual, sino que existirán copias en otros servidores para evitar pérdidas de información accidental. </p>
               </div>
             </div>
-            <div className="w-1/3 flex px-10">
+            <div data-aos="fade-up" data-aos-delay="600" className="w-1/3 flex px-10">
               <div className="transform hover:scale-110 duration-300 bg-white w-full rounded-md border border-gray-300 shadow-2xl flex flex-col items-center justify-center p-5">
                 <div className="flex-grow w-1/2 flex items-center">
                   <img className="w-full mb-5" src="https://image.freepik.com/vector-gratis/big-data-center-rack-sala-servidores-proceso-ingenieria-trabajo-equipo-tecnologia-informatica-almacenamiento-nube_39422-1032.jpg" />
@@ -122,7 +122,7 @@ export default function Home() {
         <div id="adopcion" className="w-full xl:px-20 flex flex-wrap justify-center">
           <p className="w-full text-4xl font-bold text-center mb-10">Grado de adopción tienen las empresas al contar o contratar este tipo
 de servicio en la nube.</p>
-          <div className="w-3/4 flex flex-col items-center justify-center">
+          <div data-aos="fade-up" className="w-3/4 flex flex-col items-center justify-center">
             <p className="w-2/3 mb-3">IDG ha realizado un estudio sobre tendencias en cloud computing para analizar la adopción de esta tecnología en las organizaciones y principales casos de uso. Para ello se ha entrevistado a compañías que están involucradas en la planificación y administración de tecnologías cloud en sus organizaciones.</p>
             <p className="w-2/3 mb-3">Algunos indicadores que debemos destacar son:</p>
             <ol className="list-disc w-2/3">

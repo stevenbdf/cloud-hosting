@@ -16,7 +16,7 @@ const ModelosDisponibles = () => {
         <div className="w-11/12">
           <p className="text-4xl font-bold text-center mb-10">Modelos de servicio de base de datos disponibles en la nube</p>
           <div className="w-full flex justify-between mb-10">
-            <div className="w-1/3 flex px-10">
+            <div data-aos="fade-up" className="w-1/3 flex px-10">
               <div className="transform hover:scale-110 duration-300 bg-white w-full rounded-md border border-gray-300 shadow-2xl flex flex-col items-center justify-center p-5">
                 <div className="flex-grow w-1/2 flex items-center">
                   <img className="w-full mb-5" src="https://1.cms.s81c.com/sites/default/files/2017-10-18/infrastructure-as-a-service-iaas.jpg" />
@@ -25,7 +25,7 @@ const ModelosDisponibles = () => {
                 <p className="px-5">Un proveedor proporciona a los clientes acceso directo a almacenamiento, red, servidores y otros recursos de computación en la nube.</p>
               </div>
             </div>
-            <div className="w-1/3 flex px-10">
+            <div data-aos="fade-up" data-aos-delay="300" className="w-1/3 flex px-10">
               <div className="transform hover:scale-110 duration-300 bg-white w-full rounded-md border border-gray-300 shadow-2xl flex flex-col items-center justify-center p-5">
                 <div className="flex-grow w-1/2 flex items-center">
                   <img className="w-full mb-5" src="https://1.cms.s81c.com/sites/default/files/2017-10-18/platform-as-a-service-paas.jpg" />
@@ -34,7 +34,7 @@ const ModelosDisponibles = () => {
                 <p className="px-5">Un proveedor de servicios ofrece acceso a un entorno basado en la nube, donde los usuarios pueden desarrollar y ofrecer aplicaciones. El proveedor suministra la infraestructura subyacente.</p>
               </div>
             </div>
-            <div className="w-1/3 flex px-10">
+            <div data-aos="fade-up" data-aos-delay="600" className="w-1/3 flex px-10">
               <div className="transform hover:scale-110 duration-300 bg-white w-full rounded-md border border-gray-300 shadow-2xl flex flex-col items-center justify-center p-5">
                 <div className="flex-grow w-1/2 flex items-center">
                   <img className="w-full mb-5" src="https://1.cms.s81c.com/sites/default/files/2017-10-18/software-as-a-service-saas.jpg" />
@@ -47,10 +47,10 @@ const ModelosDisponibles = () => {
             </div>
           </div>
         </div>
-        <div className="mb-10 w-2/3 flex justify-center">
+        <div data-aos="fade-up" data-aos-delay="900" className="mb-10 w-2/3 flex justify-center">
           <img className="w-2/5" src="https://www.stackscale.com/wp-content/uploads/2020/04/modelos-servicios-cloud-iaas-paas-saas-stackscale.jpg" />
         </div>
-        <div className="mb-10 w-2/3">
+        <div data-aos="fade-up" className="mb-10 w-2/3">
           <p className="text-2xl font-bold mb-5">IaaS</p>
           <p className="mb-5">Infraestructura como servicio (IaaS) es una oferta de computación en nube en la que un proveedor proporciona a los usuarios acceso a recursos informáticos, tales como: servidores, almacenamiento  y redes. Las organizaciones utilizan sus propias plataformas y aplicaciones dentro de la infraestructura de un proveedor de servicios.</p>
           <p className="font-bold mb-5">Características clave</p>
@@ -62,7 +62,7 @@ const ModelosDisponibles = () => {
             <li className="mb-3">Habilita la virtualización de tareas administrativas, lo que libera tiempo para otros trabajos.</li>
           </ol>
         </div>
-        <div className="mb-10 w-2/3">
+        <div data-aos="fade-up" className="mb-10 w-2/3">
           <p className="text-2xl font-bold mb-5">PaaS</p>
           <p className="mb-5">Plataforma como servicio (PaaS) es una oferta de computación en nube que proporciona a los usuarios un entorno de nube en el que pueden desarrollar, gestionar y entregar aplicaciones. Los usuarios, además del almacenamiento y de otros recursos de computación, pueden utilizar un conjunto de herramientas preconstruidas para desarrollar, personalizar y probar sus propias aplicaciones.</p>
           <p className="font-bold mb-5">Características clave</p>
@@ -73,7 +73,7 @@ const ModelosDisponibles = () => {
             <li className="mb-3">Facilita el trabajo colaborativo incluso cuando los equipos trabajan de forma remota.</li>
           </ol>
         </div>
-        <div className="mb-10 w-2/3">
+        <div data-aos="fade-up" className="mb-10 w-2/3">
           <p className="text-2xl font-bold mb-5">SaaS</p>
           <p className="mb-5">Software como servicio (SaaS)   es una oferta de computación en nube que proporciona a los usuarios acceso a un software con base en la nube de un proveedor. Los usuarios no instalan las aplicaciones en sus dispositivos locales. En vez de eso, las aplicaciones residen en una red de nube remota a la que se accede por medio de la web o de una API. Por medio de la aplicación, los usuarios pueden almacenar y analizar los datos, además de colaborar en proyectos.</p>
           <p className="font-bold mb-5">Características clave</p>
